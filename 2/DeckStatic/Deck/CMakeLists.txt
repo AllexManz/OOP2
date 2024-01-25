@@ -1,0 +1,1 @@
+add_library(DeckStatic deck.cpp deck.h ../../Card/Cards/card.h ../../Card/Cards/card.cpp)
