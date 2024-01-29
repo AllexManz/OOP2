@@ -7,10 +7,6 @@ TransitionHub::TransitionHub(std::string line, std::string name){
 }
 
 
-std::vector<LinesPairs> TransitionHub::get_interchange() {
-    return lines_and_stations;
-}
-
 
 void TransitionHub::add_data(const LinesPairs &new_data) {
     if (lines_and_stations.size() < 3)

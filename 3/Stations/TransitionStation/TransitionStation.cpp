@@ -24,7 +24,7 @@ std::ostream& TransitionStation::print(std::ostream &s){
 
     s << "Transition Lines:\n";
     for (const auto & line : lines) {
-        std::cout << "Line: " << line << " | Station: " << get_station() << '\n';
+        s << "Line: " << line << " | Station: " << get_station() << '\n';
     }
     s << "\n\n";
 
